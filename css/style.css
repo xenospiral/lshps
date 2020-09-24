@@ -6,7 +6,7 @@ body {
 
 header {
     background-color: rgb(32, 27, 32);
-    padding: 50px 0 100px 0;
+    padding: 50px 0 20px 0;
 }
 
 h1 {
@@ -53,7 +53,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 60px;
+    padding:0 0px 60px 0px;
+    max-width: 300px;
 }
 
 .cover-image {
@@ -65,4 +66,12 @@ a {
 .title-link {
     font-size: 24px;
     font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    .films {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
 }
