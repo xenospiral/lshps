@@ -10,6 +10,7 @@ header {
 }
 
 h1 {
+    font-size: 36px;
     font-family: 'Megrim', serif;
     color: rgb(211, 177, 177);
     text-align: center;
@@ -18,11 +19,11 @@ h1 {
 }
 
 span {
-    text-shadow: 4px 4px 4px rgb(114, 20, 3);
+    text-shadow: 4px 4px 4px rgb(190, 31, 3);
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Megrim', sans-serif;
     color: rgb(25, 128, 24);
     text-align: center;
     padding: 100px 0 100px 0;
@@ -68,7 +69,13 @@ a {
     font-weight: bold;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 620px) {
+    h1 {
+        font-size: 64px;
+    }
+    h2 {
+        font-size: 48px;
+    }
     .films {
         display: flex;
         flex-flow: row wrap;
